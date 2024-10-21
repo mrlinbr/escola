@@ -1,0 +1,277 @@
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+<div class="fundo">
+    <!--    tela 1-->
+    <div class="tela-1 container-fluid px-0">
+        <!-- Barra de navegação -->
+          <nav class="navbar navbar-expand-lg navbar-light tela-1 ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="bioeducar.svg" alt="bioeducar logo" class="logo-img">
+              </a>
+              
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-collapse collapse" id="navbarNav" style="">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item"><a class="nav-link" href="#">notícias</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">sobre nós</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">fique por dentro</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="btn btn-outline-light bg-primary text-light" href="#">doe agora</a>
+                  </li>
+                  <li class="nav-item">
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="busca" aria-label="Search">
+                    </form>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <!-- Carrossel -->
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://pt.wikipedia.org/wiki/Panthera_onca" target="_blank">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F-sZXBoPQBlzU%2FUsOgsHsp2EI%2FAAAAAAAAQ7I%2Fp488xZvvRXs%2Fs1600%2FNinja!.jpg&amp;f=1&amp;nofb=1&amp;ipt=be11dda0331b8b41f690190cff89df9b67acc1b5f2877569aaa1fc3c52f5bd4e&amp;ipo=images" class="d-block w-100" alt="Leopard Image">
+                </a>
+                <div class="carousel-caption d-none d-sm-block">
+                  <p class="bg-secondary p-2 text-white rounded">existem onças pintadas no baixo sul?</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.wwf.org.br/natureza_brasileira/areas_prioritarias/pantanal/nossas_solucoes_no_pantanal/protecao_de_especies_no_pantanal/onca_pintada/" target="_blank">
+                <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-0bjvGXx1lxc%2FTynDnvdVF4I%2FAAAAAAAABlY%2FCmyWOP2nLwE%2Fs1600%2F208.jpg&amp;f=1&amp;nofb=1&amp;ipt=d4f150fa2e0860deaba7527f859d4d7e9c1e33634f28b232fcc9f34565df2c95&amp;ipo=images" class="d-block w-100" alt="Second Slide">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="bg-secondary p-2 text-white rounded">outra onça pintada</p>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">próximo</span>
+            </button>
+          </div>
+
+
+        <!-- Seção com cards -->
+          <div class="row w-100 text-center my-4">
+            <h3>onde atuamos?</h3>
+            <div class="col-12 col-md-4 px-0">
+              <div class="card">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pensamentoverde.com.br%2Fwp-content%2Fuploads%2F2018%2F02%2Fmata-atlantica-2.jpg&amp;f=1&amp;nofb=1&amp;ipt=454a2582f640151362f5d7f4d6f848a0c721a7a26cb32be4c87c9e9623ddcd6f&amp;ipo=images" class="card-img-top" alt="Pesquisa">
+                <div class="card-body">
+                  <p class="card-text">Na pesquisa e categorização de espécies endêmicas</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 px-0 col-md-4">
+              <div class="card">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fekoways.com%2Fwp-content%2Fuploads%2F2021%2F04%2FAraucaria.jpg&amp;f=1&amp;nofb=1&amp;ipt=7d862eb442aa5ce7ccdfa6f704e1ae98d058f4827fd67827dd34312478916c33&amp;ipo=images" class="card-img-top" alt="Atividades Educativas">
+                <div class="card-body">
+                  <p class="card-text">Na promoção de atividades educativas</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 px-0 col-md-4">
+              <div class="card">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs2.glbimg.com%2FSQ6sgsnH9J_8waMwHSREEA4BQgE%3D%2Fe.glbimg.com%2Fog%2Fed%2Ff%2Foriginal%2F2018%2F12%2F18%2Fnature-653908_1920.jpg&amp;f=1&amp;nofb=1&amp;ipt=a36b6396eb377e281e04a7a006aa91bf4717ba30ab5248af78b8bd20d4e57a3e&amp;ipo=images" class="card-img-top" alt="Atividades Socioculturais">
+                <div class="card-body">
+                  <p class="card-text">Em atividades socioculturais</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+    </div>
+    <!--    tela 2-->
+    <div class="tela-2">
+        <div class="container mt-5">
+            <!-- Primeira linha de conteúdo -->
+            <div class="row align-items-center mb-5 overflow-hidden">
+                <div class="col-md-6 order-2 order-md-1 image-container aos-init" data-aos="fade-right">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.aeconomiab.com%2Fwp-content%2Fuploads%2F2022%2F05%2FPHOTOGRAPH-BY-LEO-CORREA-ASSOCIATED-PRESS.jpeg&amp;f=1&amp;nofb=1&amp;ipt=202750c9e4e7c6390271fcc2e9a9cde62d841ee1aa45f0410e753225c876c17c&amp;ipo=images
+                    " class="img-fluid rounded" alt="Descrição da imagem 1">
+                </div>
+                <div class="col-md-6 order-1 order-md-2 text-content aos-init" data-aos="fade-left">
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, non voluptatibus quaerat non officiis illum ut ratione galisum qui nemo velit vel iure fugiat aut reprehenderit temporibus. Et internos autem et accusamus placeat rem laboriosam eaque ea minus vero. Ex incidunt sunt ut tenetur deleniti ea eaque nihil eum quasi quisquam.</p>
+                </div>
+            </div>
+
+            <!-- Segunda linha de conteúdo -->
+            <div class="row align-items-center mb-5 overflow-hidden">
+                <div class="col-md-6 text-content aos-init" data-aos="fade-right">
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, non voluptatibus quaerat non officiis illum ut ratione galisum qui nemo velit vel iure fugiat aut reprehenderit temporibus. Et internos autem et accusamus placeat rem laboriosam eaque ea minus vero. Ex incidunt sunt ut tenetur deleniti ea eaque nihil eum quasi quisquam.</p>
+                </div>
+                <div class="col-md-6 image-container aos-init" data-aos="fade-left">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclaudia.abril.com.br%2Fwp-content%2Fuploads%2F2023%2F05%2Fmata-atlantica.jpg%3Fquality%3D85%26strip%3Dinfo%26w%3D1024&amp;f=1&amp;nofb=1&amp;ipt=c5c64b264c880d0ba3dffa9e75416fb551630a37a72e19d4c3a0d93a7cf7c260&amp;ipo=images
+                    " class="img-fluid rounded" alt="Descrição da imagem 2">
+                </div>
+            </div>
+
+            <!-- Terceira linha de conteúdo -->
+            <div class="row align-items-center mb-5 overflow-hidden">
+                <div class="col-md-6 image-container aos-init" data-aos="fade-right">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.biologianet.com%2F2020%2F09%2Fsamambaiacu.jpg&amp;f=1&amp;nofb=1&amp;ipt=eca417325a8532e5ddd8c7203e9ba4c6dd56b695debcb26df710af023b5e300f&amp;ipo=images
+                    " class="img-fluid rounded" alt="Descrição da imagem 3">
+                </div>
+                <div class="col-md-6 text-content aos-init" data-aos="fade-left">
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, non voluptatibus quaerat non officiis illum ut ratione galisum qui nemo velit vel iure fugiat aut reprehenderit temporibus. Et internos autem et accusamus placeat rem laboriosam eaque ea minus vero. Ex incidunt sunt ut tenetur deleniti ea eaque nihil eum quasi quisquam.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    tela 3-->
+    <div class="tela-3">
+        <div class="container my-5">
+            <h2 class="text-center mb-4">explore os tópicos</h2>
+            <!-- Linha dos ícones de tópicos -->
+            <div class="row justify-content-center mb-5 topic-icons">
+                <div class="col-auto text-center">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.greenpeace.org%2Fstatic%2Fplanet4-argentina-stateless%2F2019%2F01%2F3796790c-w7a9229.jpg&amp;f=1&amp;nofb=1&amp;ipt=02d254dd83b15c79a257f6e9126555e1c41d25786f89ea8598af1046bac60e08&amp;ipo=images
+                    " alt="Agroecologia">
+                    <p>agroecologia</p>
+                </div>
+                <div class="col-auto text-center">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.emprendoverde.cl%2Fwp-content%2Fuploads%2F2014%2F07%2FAgroecolog%25C3%25ADa.jpg&amp;f=1&amp;nofb=1&amp;ipt=3e40d47ab7a517a3303d53f4f6024a6d343b0b2b450c512332d65e0ab48ddabc&amp;ipo=images
+                    " alt="Mata Atlântica">
+                    <p>mata atlântica</p>
+                </div>
+                <div class="col-auto text-center">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fforbes.com.br%2Fwp-content%2Fuploads%2F2021%2F05%2Fagro-sustentabilidade-biodiversidade-200521-Surasak-Suwanmake_Gettyimages-1024x683.jpg&amp;f=1&amp;nofb=1&amp;ipt=015895a6bc8054345c1cf90299708d2c18e4478b10cee349755ccf90ba8b855a&amp;ipo=images
+                    " alt="Biodiversidade">
+                    <p>biodiversidade</p>
+                </div>
+            </div>
+    
+            <!-- Linha de cards -->
+            <div class="row">
+                <!-- Primeiro card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.lcHZg-wz8vbA8Dr2gffJYQHaGP%26pid%3DApi&amp;f=1&amp;ipt=8c23cb725efe695562d09749be4ff7b646cf40b14d73301eba2de22a9ab64c47&amp;ipo=images
+                        " class="card-img-top" alt="Explore nossa galeria">
+                        <div class="card-body">
+                            <p class="card-text">explore nossa galeria</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Segundo card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcomunidadeviadutos.com.br%2Fuploads%2Fnoticias%2F4975%2Fupn_blog_com_investigaci%25C3%25B3n-cient%25C3%25ADfica_04-nov.jpg&amp;f=1&amp;nofb=1&amp;ipt=8bdd04b7e222aa92513aa861954635894512bfc177e6073557a231ec62ffb28f&amp;ipo=images
+                        " class="card-img-top" alt="Pesquisas desenvolvidas">
+                        <div class="card-body">
+                            <p class="card-text">veja o resultado de pesquisas desenvolvidas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Terceiro card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.MspNdBQWMRoeMt060Yi1KwHaE6%26pid%3DApi&amp;f=1&amp;ipt=2e1e12d5be11cfab5f1b1f01b42b62026eb8bb896f35773f5ee40e569ff7bf4e&amp;ipo=images
+                        " class="card-img-top" alt="Faça parte do nosso time">
+                        <div class="card-body">
+                            <p class="card-text">faça parte do nosso time</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    <!--    tela 4-->
+    <div class="tela-4">
+         <!-- Seção de Cadastro -->
+      <section class="cadastro-section text-center">
+          <div class="container text-black">
+              <h2>cadastre-se abaixo!</h2>
+              <p>e receba atualizações em primeira mão.</p>
+              <form class="row g-2 justify-content-center">
+                  <div class="col-12 col-md-4">
+                      <input type="text" class="form-control" placeholder="nome" required="">
+                  </div>
+                  <div class="col-12 col-md-4">
+                      <input type="email" class="form-control" placeholder="email" required="">
+                  </div>
+                  <div class="col-12 col-md-auto">
+                      <button type="submit" class="btn cadastro-btn">INSCREVA-SE</button>
+                  </div>
+              </form>
+          </div>
+        </section>
+
+
+      <!-- Seção de Redes Sociais -->
+      <section class="social-section text-center">
+        <div class="container ">
+            <h2>acompanhe-nos</h2>
+            <p>em nossas redes sociais</p>
+            <div class="social-icons d-flex justify-content-center">
+
+                <div class="social-icon">
+                  <a href="https://www.instagram.com/institutobioeducar/" target="_blank">
+                    <img src="instagram.svg" alt="instagram">
+                  </a>
+                </div>
+
+                <div class="social-icon">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <img src="facebook.svg" alt="facebook">
+                  </a>
+                </div>
+
+                <div class="social-icon">
+                  <a href="https://whattsapp.com/" target="_blank">
+                    <img src="whatsapp.svg" alt="twitter">
+                  </a>
+                </div>
+
+                <div class="social-icon">
+                  <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="linkedin.svg" alt="linkedin">
+                  </a>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+      <!-- Rodapé -->
+      <footer>
+          <img src="bioeducar.svg" alt="Logo BioEducar">
+      </footer>
+    </div>
+
+</div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS (Animate on Scroll) JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
