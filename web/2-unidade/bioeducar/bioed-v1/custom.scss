@@ -1,0 +1,14 @@
+// Definição de variáveis personalizadas
+$primary: #aabeb4;   /* Cor principal */
+$secondary: #45533a; /* Cor secundária */
+$body-bg: #aabeb4;    /* Cor de fundo do body */
+$body-color: #333333; /* Cor do texto padrão */
+
+// Sobrescreva outras variáveis do Bootstrap se necessário
+$navbar-bg: $primary;
+$navbar-color: $secondary;
+$button-bg: $primary;
+$button-color: $secondary;
+
+// Inclua os estilos do Bootstrap
+@import "bootstrap";
